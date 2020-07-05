@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        .Food{
+            color:goldenrod;
+            text-align: center;
+        }
+        .grid{
+             color:goldenrod;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar fixed-top navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <h1>Difference between HTL and HTML5</h1>
+    <img class="img-fluid" src="../../difference-between-html-and-html5.png" alt="">
+    <h1>Our Member</h1>
+    <img class="img-fluid w-25 rounded-circle img-thumbnail" src="../../team-2.jpg" alt="">
+    <img class="img-fluid w-25 rounded-circle img-thumbnail"   src="../../webdesign-first-impression.jpg" alt="">
+
+    <h1>Card</h1>
+    <div class="card" style="width: 18rem;">
+        <img src="../../html-layouts.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">HTML-layouts</h5>
+            <p class="card-text">HTML is the core componet to build a responsive website</p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+    </div>
+
+    <h1 class="Food">Choose a Food Item</h1>
+    <br>
+
+    <div class="card-deck">
+        <div class="card">
+            <img src="../../food 1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Egg Salad</h5>
+                <p class="card-text">Egg salad made with 5 eggs with succulent Chicken</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../../food 2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Tomatus Capsicum</h5>
+                <p class="card-text">Most sizzling dishes of the town</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../../food 3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bread with Butter</h5>
+                <p class="card-text">B&B makes your day with great gustatory appealing taste</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        </div>
+        <div>
+            <!-- <h1>Navigation</h1>
+            <nav class="nav">
+                <a clss="nav-link" href="">Home</a>
+                <a clss="nav-link" href="">Shopping</a>
+                <a clss="nav-link" href="">Shipping</a>
+                <a clss="nav-link" href="">Cart</a>
+            </nav> -->
+
+            <h1>Navigation Link</h1>
+            <nav class="nav">
+                <a class="nav-link active" href="#">Active</a>
+                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Link</a>
+                <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+            </nav>
+
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        
+        
+        </div>
+        <div class="container">
+            <h1 class="grid">Grid</h1>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium debitis temporibus ea alias fuga quo atque itaque officia, est a facilis dolorum deleniti? Cumque earum velit porro architecto neque dicta impedit, possimus odit, inventore est voluptate vitae. Temporibus veritatis eius quaerat veniam soluta necessitatibus itaque fugit aspernatur nemo tempore!</p>
+
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium debitis temporibus ea alias fuga quo atque itaque officia, est a facilis dolorum deleniti? Cumque earum velit porro architecto neque dicta impedit, possimus odit, inventore est voluptate vitae. Temporibus veritatis eius quaerat veniam soluta necessitatibus itaque fugit aspernatur nemo tempore!</p>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium debitis temporibus ea alias fuga
+                        quo atque itaque officia, est a facilis dolorum deleniti? Cumque earum velit porro architecto neque dicta
+                        impedit, possimus odit, inventore est voluptate vitae. Temporibus veritatis eius quaerat veniam soluta
+                        necessitatibus itaque fugit aspernatur nemo tempore!</p>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium debitis temporibus ea alias fuga
+                        quo atque itaque officia, est a facilis dolorum deleniti? Cumque earum velit porro architecto neque dicta
+                        impedit, possimus odit, inventore est voluptate vitae. Temporibus veritatis eius quaerat veniam soluta
+                        necessitatibus itaque fugit aspernatur nemo tempore!</p>
+                </div>
+
+
+
+
+
+                
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+</html>

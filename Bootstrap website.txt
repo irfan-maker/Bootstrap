@@ -9,4 +9,6 @@ Bootstrap
 8.Responsive Web Design
 9.Grid and Grid Layouts
 10.Carousel
-11.
+11.Flex[Utilities to FLEX]
+12.Revision of Bootstrap
+
